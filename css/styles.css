@@ -1,0 +1,125 @@
+body{
+  font-family: 'Spartan', sans-serif;
+}
+
+@media (max-width: 993px){
+  body{
+    text-align: center;
+  }
+  .review-card{
+    height: auto;
+    border: none;
+    border-radius: 0.7rem;
+    background-color: hsl(300, 24%, 96%);
+    display: relative;
+  }
+}
+
+.container-fluid{
+  padding: 75px 12% 20px;
+}
+
+#reviews-header h1{
+  font-size: 3rem;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+
+#reviews-header p{
+  color: hsl(303, 10%, 53%);
+  font-size: 1rem;
+  margin: 5% 0;
+}
+
+.review-card{
+  width: 440px;
+  height: 55px;
+  border: none;
+  border-radius: 0.7rem;
+  background-color: hsl(300, 24%, 96%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.card-content{
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin: 0 7px;
+}
+
+.star{
+  margin: 0 2px;
+}
+
+
+
+.review-cards{
+padding: 0;
+}
+
+.reviews{
+
+}
+
+.report-guru{
+  left: 55px;
+}
+
+.besttech{
+left: 110px;
+}
+
+
+#testimonials{
+  margin: 7% 0;
+}
+
+.testimonial-card .card-body{
+}
+
+.buyer-profile-picture{
+  border-radius: 100%;
+  width: 15%;
+}
+
+.buyer-name{
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+
+.buyer-status{
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.buyer-review{
+  color: hsl(0, 0%, 100%);
+  font-size: 0.9rem;
+}
+
+.testimonial-card{
+  border: none;
+  border-radius: 0.7rem;
+  background-color: hsl(300, 43%, 22%);
+}
+
+.colton{
+  right: 15px;
+  bottom: 25px;
+}
+
+.anne{
+  left: 15px;
+  top: 25px;
+}
+
+.attribution{
+  margin-top: 7%;
+  text-align: center;
+}
