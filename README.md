@@ -10,7 +10,7 @@ Languages and Frameworks used:
 
 ## Preview of the Challenge Design and My Design
 
-### Challenege Design
+### Challenge Design
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
 
