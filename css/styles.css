@@ -1,78 +1,69 @@
 body{
   font-family: 'Spartan', sans-serif;
-}
-
-@media (max-width: 993px){
-  body{
-    text-align: center;
-  }
-  .review-card{
-    height: auto;
-    border: none;
-    border-radius: 0.7rem;
-    background-color: hsl(300, 24%, 96%);
-    display: relative;
-  }
+  font-size: 15px;
 }
 
 .container-fluid{
   padding: 75px 12% 20px;
 }
 
-#reviews-header h1{
-  font-size: 3rem;
+/*REVIEWS*/
+.reviews-header{
+  font-size: 48px;
   color: hsl(300, 43%, 22%);
   font-weight: 700;
 }
 
-#reviews-header p{
+.reviews-text{
   color: hsl(303, 10%, 53%);
-  font-size: 1rem;
   margin: 5% 0;
 }
 
-.review-card{
-  width: 440px;
-  height: 55px;
-  border: none;
-  border-radius: 0.7rem;
+/*RATING*/
+
+.rating-cards{
+  text-align: right;
+  padding: 0;
+}
+
+.rating{
   background-color: hsl(300, 24%, 96%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15px 0;
-}
-
-.card-content{
-  color: hsl(300, 43%, 22%);
-  font-weight: 700;
-  font-size: 0.9rem;
-  margin: 0 7px;
-}
-
-.star{
-  margin: 0 2px;
-}
-
-
-
-.review-cards{
-padding: 0;
+  border-radius: 8px;
+  padding: 2%;
+  text-align: center;
+  margin: 2%;
+  width: 80%;
+  display: inline-block;
+  position: relative;
 }
 
 .reviews{
-
+  right: 60px;
 }
 
 .report-guru{
-  left: 55px;
+right: 30px;
 }
 
-.besttech{
-left: 110px;
+.stars{
+  float: left;
+}
+
+.star{
+  margin: 0 3px;
+  padding: 0;
+}
+
+.rating-text{
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  display: inline-block;
+  margin: 0 auto;
 }
 
 
+
+/*TESTIMONIALS*/
 #testimonials{
   margin: 7% 0;
 }
@@ -83,24 +74,22 @@ left: 110px;
 .buyer-profile-picture{
   border-radius: 100%;
   width: 15%;
+  margin: 3%;
 }
 
 .buyer-name{
   color: hsl(0, 0%, 100%);
   font-weight: 500;
-  font-size: 0.9rem;
 }
 
 
 .buyer-status{
   color: hsl(333, 80%, 67%);
   font-weight: 400;
-  font-size: 0.9rem;
 }
 
 .buyer-review{
   color: hsl(0, 0%, 100%);
-  font-size: 0.9rem;
 }
 
 .testimonial-card{
@@ -122,4 +111,43 @@ left: 110px;
 .attribution{
   margin-top: 7%;
   text-align: center;
+}
+
+@media only screen and (max-width: 993px){
+  body{
+    text-align: center;
+  }
+
+
+  .rating{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+    margin: 2%;
+    display: block;
+    position: static;
+  }
+
+  .rating-text{
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    display: block;
+    margin: 0 auto;
+  }
+  .stars{
+    float: none;
+    margin-bottom: 2%;
+    display: block;
+  }
+
+  .testimonial-card{
+    border: none;
+    border-radius: 0.7rem;
+    background-color: hsl(300, 43%, 22%);
+    display: block;
+    position: static;
+    margin: 3% 0;
+  }
 }
