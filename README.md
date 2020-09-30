@@ -16,7 +16,6 @@ Languages and Frameworks used:
 
 ### My Design
 
-
-![image](https://user-images.githubusercontent.com/53638836/94649770-512ab900-0330-11eb-900c-822d88c39965.png)
+![image](https://user-images.githubusercontent.com/53638836/94651882-19257500-0334-11eb-8bcd-3ad4be72c2cb.png)
 
 * You can check the page on: https://social-proof-section-master-gamma.vercel.app/
